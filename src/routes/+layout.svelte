@@ -1,30 +1,23 @@
 <script lang="ts">
 	import '../app.css';
-	import Icon from '@iconify/svelte';
+	// import Icon from '@iconify/svelte';
 </script>
 
-<div class="app">
+<div class="bg-theo-100 dark:bg-theo-900 text-theo-900 dark:text-theo-100 min-h-screen p-10">
 	<main>
 		<slot />
 	</main>
 
-	<footer>
-		<p class="flex flex-row items-center">
-			<Icon icon="mdi:github" />
-			<a class="font-bold font-mono underline" href="https://github.com/Tesohh/livemark">
-				Tesohh/livemark</a
-			>
-		</p>
-	</footer>
+	<footer />
 </div>
 
 <style>
-	.app {
+	/* .app {
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
-	}
-
+	} */
+	/*
 	main {
 		flex: 1;
 		display: flex;
@@ -48,5 +41,5 @@
 		footer {
 			padding: 12px 0;
 		}
-	}
+	} */
 </style>
