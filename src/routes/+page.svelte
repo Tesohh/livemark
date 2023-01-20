@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Nav from '$lib/components/Nav.svelte';
 	import Link from '$lib/components/Link.svelte';
+	import ParsedText from '$lib/components/ParsedText.svelte';
 </script>
 
 <Nav>
@@ -15,7 +16,9 @@
 		<span class="text-2xl"
 			>the <span class="text-theo-400 dark:text-theo-700">__</span><span class="italic"
 				>markdown</span
-			><span class="text-theo-400 dark:text-theo-700">__</span> editor that reacts</span
+			><span class="text-theo-400 dark:text-theo-700">__</span> editor that <ParsedText
+				text="**reacts**"
+			/></span
 		>
 	</div>
 </div>
